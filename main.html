@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mohanad & Shahd Wedding Invitation | Flight MS-2026</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cinzel:wght@400;500;600;700&family=Great+Vibes&family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Language Switcher -->
+  <button class="lang-toggle" onclick="changeLanguage('main_ar.html')" aria-label="Switch to Arabic">
+    <div class="toggle-slider"></div>
+    <span class="lang EN active">EN</span>
+    <span class="lang AR">عربي</span>
+  </button>
+
+  <!-- Background Music Player Button -->
+  <button class="music-toggle" id="musicBtn" data-off-text="Play Music" data-on-text="Music On">
+    <div class="equalizer">
+      <span></span><span></span><span></span>
+    </div>
+    <span class="music-status">Play Music</span>
+  </button>
+
+  <!-- Navigation Header Back to Launch Screen -->
+  <!-- <div class="header-nav">
+    <a href="index.html" class="btn-back">
+      ← Launch Screen
+    </a>
+  </div> -->
+
+  <!-- MAIN INVITATION CONTENT -->
+  <main>
+    <!-- SECTION 1: BOARDING PASS HERO -->
+    <section class="inv-section">
+      <div class="boarding-pass-card">
+        <div class="pass-header">
+          <div style="display:flex; align-items:center; gap:12px;">
+            <span style="font-size:24px;">✈</span>
+            <div>
+              <span style="font-size:11px; text-transform:uppercase; letter-spacing:2px; color:#F2C14E; display:block;">LOVE AIRLINES • FLIGHT TO FOREVER</span>
+              <h2 style="font-size:20px; font-weight:700;">FIRST CLASS BOARDING PASS</h2>
+            </div>
+          </div>
+          <div style="font-family:monospace; font-size:12px; background:rgba(0,0,0,0.25); padding:6px 14px; border-radius:20px; border:1px solid rgba(255,255,255,0.2);">
+            FLIGHT: <strong style="color:#FFF;">MS-091826</strong> | CLASS: <strong style="color:#F2C14E;">VIP GUEST</strong>
+          </div>
+        </div>
+
+        <div class="pass-body">
+          <div style="display:flex; flex-direction:column; gap:20px;">
+            <div>
+              <span style="font-size:11px; color:#A67C52; text-transform:uppercase; letter-spacing:2px; display:block;">PASSENGERS</span>
+              <h1 style="font-family:'Allura', cursive; font-size:52px; color:#7A5C45; font-weight:400; line-height:1; padding-top:10px;">Mohanad & Shahd</h1>
+            </div>
+
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+              <div style="background:#F8F4EE; padding:12px 18px; border-radius:14px; border:1px solid rgba(139,107,82,0.15);">
+                <span style="font-size:11px; color:#8B6B52; display:block;">FLIGHT DATE</span>
+                <strong style="color:#7A5C45; font-size:15px;">Friday • Sept 18, 2026</strong>
+              </div>
+              <div style="background:#F8F4EE; padding:12px 18px; border-radius:14px; border:1px solid rgba(139,107,82,0.15);">
+                <span style="font-size:11px; color:#8B6B52; display:block;">BOARDING TIME</span>
+                <strong style="color:#7A5C45; font-size:15px;">7:00 PM</strong>
+              </div>
+            </div>
+
+            <div style="background:#F8F4EE; padding:12px 18px; border-radius:14px; border:1px solid rgba(139,107,82,0.15);">
+              <span style="font-size:11px; color:#8B6B52; display:block;">GATE / VENUE</span>
+              <strong style="color:#7A5C45; font-size:15px;">Loroa Hall - Air Force House, Nasr City</strong>
+            </div>
+          </div>
+
+          <div style="text-align:center; display:flex; flex-direction:column; align-items:center; gap:16px; border-left:1px dashed rgba(139,107,82,0.2); padding-left:24px;">
+            <span style="font-size:12px; font-family:monospace; color:#A67C52; letter-spacing:2px;">SPECIAL PASSENGER</span>
+            <p style="font-size:13px; color:#7A5C45; line-height:1.5;">TOGETHER WITH THEIR FAMILIES</p>
+
+            <div style="background:#F8F4EE; padding:12px; border-radius:12px; width:100%; border:1px solid rgba(139,107,82,0.15);">
+              <div style="height:36px; background:repeating-linear-gradient(90deg,#7A5C45 0px,#7A5C45 2px,transparent 2px,transparent 4px,#7A5C45 4px,#7A5C45 8px); margin-bottom:4px;"></div>
+              <span style="font-size:10px; font-family:monospace; color:#8B6B52;">*MS2026-0918-LECIEL*</span>
+            </div>
+
+            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Mohanad+%26+Shahd+Wedding&dates=20260918T180000Z/20260918T230000Z&details=Flight+MS-2026+Wedding+at+Le+Ciel&location=Air+Force+House+Salah+Salem+Nasr+City" target="_blank" class="btn-primary" style="font-size:13px; padding:12px 20px; width:100%;">
+              📅 Add to Calendar
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: COUNTDOWN TIMER -->
+    <section class="inv-section countdown-bg hidden" style="border-radius:28px; padding:50px 20px;">
+      <span style="font-size:12px; text-transform:uppercase; letter-spacing:3px; color:#A67C52; font-weight:700;">COUNTDOWN TO TAKEOFF</span>
+      <h2 style="font-size:36px; color:#7A5C45; margin-top:8px;">Countdown To Our Forever</h2>
+
+      <div class="countdown-grid">
+        <div class="count-box">
+          <span class="count-num" id="days">00</span>
+          <span class="count-label">Days</span>
+        </div>
+        <div class="count-box">
+          <span class="count-num" id="hours">00</span>
+          <span class="count-label">Hours</span>
+        </div>
+        <div class="count-box">
+          <span class="count-num" id="minutes">00</span>
+          <span class="count-label">Minutes</span>
+        </div>
+        <div class="count-box">
+          <span class="count-num" id="seconds">00</span>
+          <span class="count-label">Seconds</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: VENUE & GAZEBO -->
+    <section class="inv-section hidden">
+      <div class="card-box" style="text-align:center;">
+        <span style="font-size:12px; text-transform:uppercase; letter-spacing:3px; color:#A67C52; font-weight:700;">WEDDING DESTINATION</span>
+        <h2 style="font-size:36px; color:#7A5C45; margin-top:6px;">  Loroa Hall  - Air Force House</h2>
+        <p style="color:#8B6B52; font-size:18px; margin-top:4px;">Salah Salem - Nasr City, Cairo</p>
+
+        <div class="venue-image-frame">
+          <img src="public/assets/venue.jpeg" alt="Loroa Hall Air Force House Venue" />
+        </div>
+
+        <a href="https://maps.app.goo.gl/CBNZAj1veYCjQqtFA" target="_blank" class="btn-primary" style="margin-bottom:30px;">
+          📍 Get Directions on Google Maps ↗
+        </a>
+
+        <!-- <div style="border-radius:20px; overflow:hidden; border:1px solid rgba(139,107,82,0.15); margin-top:20px;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.4013565795317!2d31.321703600000003!3d30.0826897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583f87f5d77679%3A0xfbb12cfa21648a0c!2sAir%20Force%20House!5e0!3m2!1sen!2seg!4v1785575649448!5m2!1sen!2seg" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div> -->
+      </div>
+
+    </section>
+
+    <!-- SECTION 5: FORMAL INVITATION WORDING -->
+    <section class="inv-section hidden">
+      <div class="invitation-box">
+        <h2 style="font-size:36px; color:#7A5C45; margin-bottom:24px;">Invitation</h2>
+        <div style="font-size:20px; color:#7A5C45; line-height:1.8; max-width:700px; margin:0 auto; space-y:12px;">
+          <p>With hearts full of love and joy,</p>
+          <p>we invite you to celebrate our special day.</p>
+          <p>Your presence will make this beautiful occasion even more meaningful and unforgettable.</p>
+          <p>Join us for an elegant evening filled with love, laughter, and forever memories.</p>
+        </div>
+        <div class="signature-text">Mohanad & Shahd</div>
+      </div>
+    </section>
+<!-- Wedding Plan / Itinerary Section -->
+<section class="inv-section hidden">
+  <div class="card-box wedding-plan-box">
+
+    <!-- Section Header -->
+    <div class="plan-header">
+      <span class="plan-sub-title">FLIGHT ITINERARY</span>
+      <h2 class="plan-title">Wedding Day Schedule</h2>
+
+      <div class="plan-divider">
+        <span></span>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+             stroke="#D4AF37" stroke-width="2" stroke-linecap="round"
+             stroke-linejoin="round">
+          <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.7 5.2c.3.4.8.5 1.3.3l.5-.3c.4-.2.6-.6.5-1.1z"/>
+        </svg>
+        <span></span>
+      </div>
+    </div>
+
+    <!-- Timeline Container -->
+    <div class="timeline-container">
+
+      <!-- Event 1 -->
+      <div class="timeline-item">
+        <div class="timeline-time">7:30 PM</div>
+        <div class="timeline-badge">
+          <span>🥂</span>
+        </div>
+        <div class="timeline-card">
+          <span class="flight-step">STEP 01 • ARRIVAL</span>
+          <h3 class="event-title">Entrance</h3>
+          <p class="event-desc">
+            Guests arrive and the wedding celebration officially begins.
+          </p>
+        </div>
+      </div>
+
+      <!-- Event 2 -->
+      <div class="timeline-item">
+        <div class="timeline-time">8:00 PM</div>
+        <div class="timeline-badge">
+          <span>🥁</span>
+        </div>
+        <div class="timeline-card">
+          <span class="flight-step">STEP 02 • NUBIAN WELCOME</span>
+          <h3 class="event-title">Nubian Zaffa</h3>
+          <p class="event-desc">
+            A joyful Nubian Zaffa welcoming the bride and groom.
+          </p>
+        </div>
+      </div>
+
+      <!-- Event 3 -->
+      <div class="timeline-item">
+        <div class="timeline-time">8:30 PM</div>
+        <div class="timeline-badge">
+          <span>💍</span>
+        </div>
+        <div class="timeline-card">
+          <span class="flight-step">STEP 03 • CEREMONY</span>
+          <h3 class="event-title">Katb Kitab</h3>
+          <p class="event-desc">
+            The beautiful Katb Kitab ceremony celebrating the official union of the couple.
+          </p>
+        </div>
+      </div>
+
+      <!-- Event 4 -->
+      <div class="timeline-item">
+        <div class="timeline-time">9:00 PM</div>
+        <div class="timeline-badge">
+          <span>💃</span>
+        </div>
+        <div class="timeline-card">
+          <span class="flight-step">STEP 04 • FIRST DANCE</span>
+          <h3 class="event-title">First Dance & DJ</h3>
+          <p class="event-desc">
+            The couple's first dance followed by music and celebration with the DJ.
+          </p>
+        </div>
+      </div>
+
+      <!-- Event 5 -->
+      <div class="timeline-item">
+        <div class="timeline-time">10:00 PM</div>
+        <div class="timeline-badge">
+          <span>🥁</span>
+        </div>
+        <div class="timeline-card">
+          <span class="flight-step">STEP 05 • LIVE PERFORMANCE</span>
+          <h3 class="event-title">Nubian Band – Hassan El Sagheir</h3>
+          <p class="event-desc">
+            Enjoy an unforgettable Nubian musical performance by Hassan El Sagheir.
+          </p>
+        </div>
+      </div>
+
+      <!-- Event 6 -->
+      <div class="timeline-item">
+        <div class="timeline-time">11:00 PM</div>
+        <div class="timeline-badge">
+          <span>🍽️</span>
+        </div>
+        <div class="timeline-card">
+          <span class="flight-step">STEP 06 • DINNER SERVICE</span>
+          <h3 class="event-title">Dinner</h3>
+          <p class="event-desc">
+            Dinner is served for our honored guests.
+          </p>
+        </div>
+      </div>
+
+      <!-- Event 7 -->
+      <div class="timeline-item">
+        <div class="timeline-time">12:00 AM</div>
+        <div class="timeline-badge">
+          <span>🎶</span>
+        </div>
+        <div class="timeline-card">
+          <span class="flight-step">STEP 07 • PARTY</span>
+          <h3 class="event-title">DJ</h3>
+          <p class="event-desc">
+            The celebration continues with music, dancing, and unforgettable moments.
+          </p>
+        </div>
+      </div>
+
+      <!-- Event 8 -->
+      <div class="timeline-item">
+        <div class="timeline-time">1:00 AM</div>
+        <div class="timeline-badge">
+          <span>✈️</span>
+        </div>
+        <div class="timeline-card">
+          <span class="flight-step">FINAL DESTINATION • ARRIVAL</span>
+          <h3 class="event-title">The Celebration Ends</h3>
+          <p class="event-desc">
+            The wedding celebration comes to a beautiful end. Thank you for celebrating with us.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+    <!-- SECTION 6: RSVP -->
+    <!-- <section class="inv-section hidden">
+      <div class="card-box">
+        <div style="text-align:center; margin-bottom:30px;">
+          <span style="font-size:12px; text-transform:uppercase; letter-spacing:3px; color:#A67C52; font-weight:700;">PASSENGER CHECK-IN</span>
+          <h2 style="font-size:36px; color:#7A5C45; margin-top:6px;">Confirm Your Seat (RSVP)</h2>
+        </div>
+
+        <form id="rsvpForm" style="max-width:600px; margin:0 auto; display:flex; flex-direction:column; gap:16px;">
+          <div>
+            <label style="display:block; font-size:14px; font-weight:600; color:#7A5C45; margin-bottom:6px;">Your Full Name *</label>
+            <input type="text" id="guestName" required placeholder="Enter your full name" class="form-input" />
+          </div>
+
+          <div>
+            <label style="display:block; font-size:14px; font-weight:600; color:#7A5C45; margin-bottom:6px;">Number of Passengers Joining</label>
+            <select id="guestCount" class="form-select">
+              <option value="1">1 Guest (Just Me)</option>
+              <option value="2">2 Guests (+1 Partner)</option>
+              <option value="3">3 Guests (+2 Family)</option>
+            </select>
+          </div>
+
+          <div>
+            <label style="display:block; font-size:14px; font-weight:600; color:#7A5C45; margin-bottom:6px;">Warm Wish or Message</label>
+            <textarea id="guestMessage" rows="3" placeholder="Write a message for Mohanad & Shahd..." class="form-textarea"></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary" style="width:100%; margin-top:10px;">
+            ✈ Confirm Flight Reservation
+          </button>
+        </form>
+
+        <div id="rsvpSuccess" style="display:none; text-align:center; padding:30px; background:rgba(242,193,78,0.15); border-radius:20px; border:1px solid #D4AF37;">
+          <h3 style="font-size:24px; color:#7A5C45;">Thank You! 🎉</h3>
+          <p style="color:#8B6B52; font-size:16px; margin-top:8px;">Your reservation has been confirmed onboard Flight MS-2026!</p>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- SECTION 7: WISHES GUESTBOOK -->
+    <!-- <section class="inv-section hidden">
+      <div class="card-box">
+        <div style="text-align:center; margin-bottom:24px;">
+          <span style="font-size:12px; text-transform:uppercase; letter-spacing:3px; color:#A67C52; font-weight:700;">IN-FLIGHT MESSAGES</span>
+          <h2 style="font-size:36px; color:#7A5C45; margin-top:6px;">Guestbook & Wishes</h2>
+        </div>
+
+        <form id="wishForm" style="display:grid; grid-template-columns:1fr 2fr auto; gap:12px; margin-bottom:30px;">
+          <input type="text" id="wishAuthor" required placeholder="Your Name" class="form-input" />
+          <input type="text" id="wishText" required placeholder="Write a wish for the couple..." class="form-input" />
+          <button type="submit" class="btn-primary" style="padding:12px 24px;">Send Wish</button>
+        </form>
+
+        <div id="wishesList">
+          <div class="card-box" style="background:#F8F4EE; padding:20px; margin-bottom:16px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+              <strong style="color:#7A5C45; font-size:16px;">Karim & Family</strong>
+              <span style="font-size:11px; color:#A67C52;">Aug 5, 2026</span>
+            </div>
+            <p style="color:#8B6B52; font-size:14px; line-height:1.6;">"Wishing you both a lifetime of smooth flights, clear skies, and endless happiness! Love you guys!"</p>
+          </div>
+
+          <div class="card-box" style="background:#F8F4EE; padding:20px; margin-bottom:16px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+              <strong style="color:#7A5C45; font-size:16px;">Dr. Ahmed & Mona</strong>
+              <span style="font-size:11px; color:#A67C52;">Aug 5, 2026</span>
+            </div>
+            <p style="color:#8B6B52; font-size:14px; line-height:1.6;">"ألف مبروك لأجمل عروسين! ربنا يسعدكم ويديم المحبة والهناء ويبارك في حياتكم القادمة ❤️"</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+  </main>
+
+  <footer style="text-align:center; padding:40px 20px; color:#8B6B52; font-size:13px; border-top:1px solid rgba(139,107,82,0.1); margin-top:60px;">
+    <!-- <p style="font-family:'Allura', cursive; font-size:32px; color:#7A5C45;">Mohanad & Shahd Wedding</p> -->
+    <p>© 2026 Mohanad & Shahd • Flight MS-2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
